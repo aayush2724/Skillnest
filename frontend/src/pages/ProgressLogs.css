@@ -1,0 +1,33 @@
+.logs-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+.log-form-card { padding: 24px; margin-bottom: 24px; }
+
+.mood-picker {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.mood-btn {
+  padding: 8px 16px;
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-full);
+  background: #fff;
+  color: var(--text-secondary);
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+.mood-btn:hover { background: #F8FAFC; border-color: #CBD5E1; }
+.mood-btn.active {
+  background: rgba(124, 58, 237, 0.08);
+  border-color: var(--accent-violet);
+  color: var(--accent-violet);
+  box-shadow: 0 0 0 1px var(--accent-violet);
+}

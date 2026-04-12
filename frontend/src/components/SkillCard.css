@@ -1,0 +1,38 @@
+.skill-card {
+  padding: 20px;
+  position: relative;
+  cursor: default;
+}
+
+.match-score-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: rgba(124, 58, 237, 0.08);
+  border: 1px solid rgba(124, 58, 237, 0.1);
+  color: var(--accent-violet);
+}
+
+.skill-card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.skill-card-name { font-size: 16px; font-weight: 700; color: var(--text-primary); margin-bottom: 2px; }
+.skill-card-bio { font-size: 12px; color: var(--text-secondary); line-height: 1.5; }
+
+.skill-card-skills { display: flex; flex-direction: column; gap: 12px; margin-top: 4px; }
+.skill-section { display: flex; flex-direction: column; gap: 6px; }
+.skill-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+.tag-wrap { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.no-skills { font-size: 12px; color: var(--text-muted); font-style: italic; }
+
+.skill-card-badges { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 6px; 
+  margin-top: 14px; 
+  padding-top: 14px; 
+  border-top: 1px solid var(--glass-border); 
+}

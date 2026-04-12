@@ -1,0 +1,44 @@
+.match-card { padding: 20px; position: relative; }
+
+.match-status-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid;
+  margin-bottom: 14px;
+}
+
+.match-card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.match-card-name { font-size: 15px; font-weight: 700; color: var(--text-primary); }
+.match-card-role { font-size: 12px; color: var(--text-muted); }
+
+.match-exchange {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  background: #F8FAFC;
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  margin-bottom: 12px;
+}
+.exchange-item { display: flex; flex-direction: column; gap: 5px; flex: 1; }
+.exchange-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+.exchange-arrow { font-size: 18px; color: var(--text-muted); }
+
+.match-message { 
+  padding: 12px; 
+  background: #FFF7ED; 
+  border: 1px solid #FFEDD5; 
+  border-radius: var(--radius-md); 
+  margin-bottom: 12px; 
+  font-size: 13px; 
+  color: var(--text-secondary); 
+}
+.match-message p { margin-top: 4px; color: var(--text-primary); }
+
+.match-actions { display: flex; gap: 8px; margin-top: 12px; }
+.match-time { font-size: 11px; color: var(--text-muted); margin-top: 10px; }

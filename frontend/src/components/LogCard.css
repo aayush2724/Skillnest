@@ -1,0 +1,19 @@
+.log-card { padding: 18px 20px; }
+.log-card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.log-skill-chip {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  background: rgba(124, 58, 237, 0.08);
+  color: var(--accent-violet);
+  border: 1px solid rgba(124, 58, 237, 0.1);
+}
+.log-mood { font-size: 12px; font-weight: 700; }
+.log-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+.log-content { font-size: 13px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 14px; }
+.log-footer { display: flex; align-items: center; gap: 12px; padding-top: 12px; border-top: 1px solid var(--glass-border); }
+.log-hours { font-size: 12px; font-weight: 600; color: var(--accent-cyan); }
+.log-date { font-size: 12px; color: var(--text-muted); margin-left: auto; }
+.log-delete-btn { background: none; border: none; cursor: pointer; font-size: 15px; opacity: 0.5; transition: var(--transition); padding: 2px; }
+.log-delete-btn:hover { opacity: 1; transform: scale(1.2); }
